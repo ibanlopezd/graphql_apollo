@@ -6,10 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "codegen": "graphql-codegen"
   },
   "dependencies": {
     "@apollo/client": "^3.7.2",
+    "@graphql-codegen/cli": "^2.16.1",
+    "@graphql-codegen/typescript": "^2.8.5",
+    "@graphql-codegen/typescript-operations": "^2.5.10",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@vime/core": "^5.4.0",
     "@vime/react": "^5.4.0",
     "date-fns": "^2.29.3",
